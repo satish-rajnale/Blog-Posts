@@ -2,7 +2,7 @@
 
   **First :** Open the terminal and run this command
 
-```
+```tsx
 npx create-react-app my-app --template typescript
 # or
 yarn create react-app my-app --template typescript
