@@ -20,7 +20,7 @@ const  App : React.FC =() => {
 Note : You must have installed a dependancy @types/node & @types/react. Check your package.json file
 
 #### Defining a state with type
-```
+```jsx
  const [task, setTask] = useState<string>("");  
     // <string | null> throws error that value cannot be null; 
  const [todoList, setTodoList] = useState<Array<string>>([]);  
