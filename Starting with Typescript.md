@@ -2,7 +2,7 @@
 
   **First :** Open the terminal and run this command
 
-```tsx
+```
 npx create-react-app my-app --template typescript
 # or
 yarn create react-app my-app --template typescript
@@ -12,7 +12,7 @@ yarn create react-app my-app --template typescript
 Now you can make changes to your App.tsx file.
  > Note : in  your tsconfig.json file strict mode is set true, while it is a good practice to have it true you might get a lot errors and feel more restrict if not used proper ways around typescripting your app.
 
-```
+```tsx
 const  App : React.FC =() => {
  // App body
 }
