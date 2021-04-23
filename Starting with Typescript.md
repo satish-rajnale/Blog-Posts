@@ -30,10 +30,14 @@ Note : You must have installed a dependancy @types/node & @types/react. Check yo
 ```
 
 Input and onchange handler
-```
+```js
 <input type="text" value={task} onChange={handleChange}/>
 ```
-```
+```tsx
+ const handleChange = (event : React.ChangeEvent<HTMLInputElement>) => { 
+     // you have to specify what event type
+    setTask(event.target.value);
+ }
 
 ```
 
