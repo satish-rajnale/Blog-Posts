@@ -21,8 +21,10 @@ Note : You must have installed a dependancy @types/node & @types/react. Check yo
 
 #### Defining a state with type
 ```
- const [task, setTask] = useState<string>("");  // <string | null> throws error that value cannot be null; 
- const [todoList, setTodoList] = useState<Array<string>>([]);  // null does not work Array<string |null> it shows error that string[] cannot be null
+ const [task, setTask] = useState<string>("");  
+    // <string | null> throws error that value cannot be null; 
+ const [todoList, setTodoList] = useState<Array<string>>([]);  
+    // null does not work Array<string |null> it shows error that string[] cannot be null
 
 ```
 ```
