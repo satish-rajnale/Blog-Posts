@@ -6,6 +6,8 @@
 npx create-react-app my-app --template typescript
 # or
 yarn create react-app my-app --template typescript
+
+<Copy>
 ```
 ##### You will be get a up and running react app with typescript configurations with this template.
 
