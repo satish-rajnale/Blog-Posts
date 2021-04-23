@@ -38,7 +38,8 @@ Input and onchange handler
      // you have to specify what event type
     setTask(event.target.value);
  }
-
 ```
+So apparently typescript needs the event type also which is provided by our browser (Js) events and React extends those events & puts them in the `React.syntheticEvent` variable. Typescript wants the event provided by React. 
+
 
 `<> By Satish Rajnale </>`
